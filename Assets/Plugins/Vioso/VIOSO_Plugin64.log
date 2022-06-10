@@ -1,0 +1,1782 @@
+
+
+VIOSO Unity Plugin loaded
+VIOSO Unity Plugin PluginLoad
+ Loading VIOSOWarpBlend ...
+Process location: D:\Unity\2021.1.10f1\Editor\Unity.exe
+Plugin location: D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSO_Plugin64.dll
+Try VIOSOWarpBlend location: D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll
+13:54:10 Warper create issued "cam7" as #1
+13:54:10 -VIOSO WARP BLEND API-
+
+13:54:10  D3D11 - Device found.
+
+13:54:10 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:10 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:10 Warper create issued "cam4" as #2
+13:54:10 DX11-Warper "cam8" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=7
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:10 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:10  D3D11 - Device found.
+
+13:54:10 File found and openend.
+
+13:54:10 Warper create issued "cam1" as #3
+13:54:10 File contains 3 chunks.
+
+13:54:10  D3D11 - Device found.
+
+13:54:10 Load warp map 0...
+
+13:54:10 Warper create issued "cam5" as #4
+13:54:10  D3D11 - Device found.
+
+13:54:10 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:10 Warper create issued "cam6" as #5
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10  D3D11 - Device found.
+
+13:54:10 Blend image set.
+
+13:54:10 Warper create issued "cam2" as #6
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10  D3D11 - Device found.
+
+13:54:10 Black image set.
+
+13:54:10 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:10 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:10 INFO: DX11-Warper destroyed.
+
+13:54:10 Failed to create warper #-1502346368
+
+13:54:10 -VIOSO WARP BLEND API-
+
+13:54:10 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:10 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:10 DX11-Warper "cam7" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=6
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:10 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:10 File found and openend.
+
+13:54:10 File contains 3 chunks.
+
+13:54:10 Load warp map 0...
+
+13:54:10 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Blend image set.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Black image set.
+
+13:54:10 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:10 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:10 INFO: DX11-Warper destroyed.
+
+13:54:10 Failed to create warper #-1329346496
+
+13:54:10 -VIOSO WARP BLEND API-
+
+13:54:10 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:10 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:10 DX11-Warper "cam4" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=3
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:10 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:10 File found and openend.
+
+13:54:10 File contains 3 chunks.
+
+13:54:10 Load warp map 0...
+
+13:54:10 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Blend image set.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Black image set.
+
+13:54:10 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:10 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:10 INFO: DX11-Warper destroyed.
+
+13:54:10 Failed to create warper #-1532824688
+
+13:54:10 -VIOSO WARP BLEND API-
+
+13:54:10 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:10 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:10 DX11-Warper "cam1" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=0
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:10 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:10 File found and openend.
+
+13:54:10 File contains 3 chunks.
+
+13:54:10 Load warp map 0...
+
+13:54:10 Warper create issued "cam3" as #0
+13:54:10  D3D11 - Device found.
+
+13:54:10 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Blend image set.
+
+13:54:10 Load bitmap for dataset 1...
+
+13:54:10 Black image set.
+
+13:54:10 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:10 2D data found in mapping. Using FIXED EYE settings.
+
+13:54:10 left-handedness detected.
+
+13:54:10 INFO: AutoView for channel [cam1] yields:
+optimalRes=[4092, 5302]
+optimalRect=[591, 2752, 2149, 4283]
+
+13:54:10 INFO: Output buffer found. Viewport is 2142x1262.
+
+13:54:11 SUCCESS: DX11-Warper initialized.
+
+13:54:11 Successfully created warper #3
+
+13:54:11 -VIOSO WARP BLEND API-
+
+13:54:11 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:11 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:11 DX11-Warper "cam5" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=4
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:11 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:11 File found and openend.
+
+13:54:11 File contains 3 chunks.
+
+13:54:11 Load warp map 0...
+
+13:54:11 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Blend image set.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Black image set.
+
+13:54:11 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:11 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:11 INFO: DX11-Warper destroyed.
+
+13:54:11 Failed to create warper #-1504715696
+
+13:54:11 -VIOSO WARP BLEND API-
+
+13:54:11 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:11 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:11 DX11-Warper "cam6" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=5
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:11 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:11 File found and openend.
+
+13:54:11 File contains 3 chunks.
+
+13:54:11 Load warp map 0...
+
+13:54:11 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Blend image set.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Black image set.
+
+13:54:11 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:11 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:11 INFO: DX11-Warper destroyed.
+
+13:54:11 Failed to create warper #-1329346496
+
+13:54:11 -VIOSO WARP BLEND API-
+
+13:54:11 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:11 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:11 DX11-Warper "cam2" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=1
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:11 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:11 File found and openend.
+
+13:54:11 File contains 3 chunks.
+
+13:54:11 Load warp map 0...
+
+13:54:11 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Blend image set.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Black image set.
+
+13:54:11 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:11 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:11 INFO: DX11-Warper destroyed.
+
+13:54:11 Failed to create warper #-1329346496
+
+13:54:11 -VIOSO WARP BLEND API-
+
+13:54:11 2022/06/09 VIOSOWarpBlend API 1.4.0.7332.
+
+13:54:11 D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend64.dll.
+
+13:54:11 DX11-Warper "cam3" created. Logging level is 2
+Evaluated parameters from
+D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\VIOSOWarpBlend.ini:
+calibFile=vioso.vwf
+calibIndex=2
+bTurnWithView=1
+bDoNotBlend=0
+eyePointProvider=
+eyePointProviderParam=sinewave
+eye=[0.00000, 0.00000, 0.00000]
+near=0.15000
+far=1000.00000
+bBicubic=0
+bUseGL110=0
+bPartialInput=0
+splice=0
+trans=[1000.00000, 0.00000, 0.00000, 0.00000; 0.00000, 1000.00000, 0.00000, 0.00000; 0.00000, 0.00000, -1000.00000, 0.00000; 0.00000, 0.00000, 0.00000, 1.00000]
+autoViewC=1.00000;
+bAutoView=1;
+dir=[0.00000, 0.00000, 0.00000]
+fov=[35.00000, 30.00000, 35.00000, 30.00000]
+screen=2.00000
+optimalRes=[0, 0]
+optimalRect=[0, 0, 0, 0]
+port=0
+address=0.0.0.0
+mouseMode=0
+
+13:54:11 Open "D:\Projects (Unity)\VWF_loader\Assets\Plugins\Vioso\vioso.vwf"...
+
+13:54:11 File found and openend.
+
+13:54:11 File contains 3 chunks.
+
+13:54:11 Load warp map 0...
+
+13:54:11 Warp map successfully loaded, new dataset (1) 1280x800 created.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Blend image set.
+
+13:54:11 Load bitmap for dataset 1...
+
+13:54:11 Black image set.
+
+13:54:11 LoadVWF: Successfully added 1 datasets to the mappings set.
+
+13:54:11 ERROR: calibIndex out of range. There is(are) only 1 dataset(s).
+13:54:11 INFO: DX11-Warper destroyed.
+
+13:54:11 Failed to create warper #-1509139408
+
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Input texture resource attached.
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:11 Warning: GetViewClip tried to address unknown warper ID.
+13:54:11 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:12 Error: OnRenderEvent UNKNOWN.
+
+13:54:12 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:13 Error: OnRenderEvent UNKNOWN.
+
+13:54:13 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:14 Warning: GetViewClip tried to address unknown warper ID.
+13:54:14 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Error: OnRenderEvent UNKNOWN.
+
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:15 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:16 Error: OnRenderEvent UNKNOWN.
+
+13:54:16 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Warning: GetViewClip tried to address unknown warper ID.
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 Error: OnRenderEvent UNKNOWN.
+
+13:54:17 INFO: DX11-Warper destroyed.
+
+13:54:17 Warper destroyed.
+13:54:17 Unloading VIOSOWarpBlend
+
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
+Warning: tried to destroy unknown warper ID.Unloading VIOSOWarpBlend
