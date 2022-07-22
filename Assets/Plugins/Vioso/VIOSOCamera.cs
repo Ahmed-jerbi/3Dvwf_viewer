@@ -7,9 +7,12 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.EventSystems;
 using System.Runtime.InteropServices;
+using UnityEngine.UI;
 
 public class VIOSOCamera : MonoBehaviour
 {
+    private bool bPrinted = false;
+    public Text DataLog;
 
     public enum ERROR
     {
@@ -51,35 +54,12 @@ public class VIOSOCamera : MonoBehaviour
     private Vector3 orig_pos = Vector3.zero;
     private Dictionary<RenderTexture, IntPtr> texMap = new Dictionary<RenderTexture, IntPtr>();
 
-    public static void ScreenShot(string path)
-    {
-        Texture2D tex;
-        int w;
-        int h;
-        TextureFormat fmt;
-        if (null != RenderTexture.active)
-        {
-            w = RenderTexture.active.width;
-            h = RenderTexture.active.height;
-            fmt = TextureFormat.RGB24;
-        }
-        else
-        {
-            w = Screen.width;
-            h = Screen.height;
-            fmt = TextureFormat.RGB24;
-        }
-        tex = new Texture2D(w, h, fmt, false);
-
-        tex.ReadPixels(new Rect(0, 0, w, h), 0, 0);
-
-        byte[] io = tex.EncodeToPNG();
-        System.IO.File.WriteAllBytes(path, io);
-    }
-
 
     private void Start()
     {
+
+        //init UI
+        DataLog.text= "";
         cam = GetComponent<Camera>();
 
         orig_rot = cam.transform.localRotation;
@@ -138,6 +118,14 @@ public class VIOSOCamera : MonoBehaviour
 
                 mP = Matrix4x4.Frustum(pl);
                 cam.projectionMatrix = mP;
+               //UI
+                if (!bPrinted)
+                {
+                    DataLog.text += ("\n [" + cam.name + "]: Pos: " + cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView + "°");
+                    Debug.Log("\n"+cam.name + " Pos: " +  cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView);
+                    bPrinted = true;
+                } 
+
             }
         }
     }

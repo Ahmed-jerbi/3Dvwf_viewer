@@ -12,15 +12,17 @@ public class UIManager : MonoBehaviour
 	public GameObject UIButtoApply;
 	public GameObject UIPanelLoading;
 	public Text UITextPath;
+	public Text UIEventLog;
 	string vwf_path;
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		//Init UI
-		
 		UIPanelLoading.SetActive(false);
-		
+		UIEventLog.text = PlayerPrefs.GetString("EventLog");
+		UITextPath.text = PlayerPrefs.GetString("PathVwf");
+
 		// Set plguin VWF path: Check if in BUILD (.exe) or in DEV (Unity Editor)
 		if (Application.platform == RuntimePlatform.WindowsEditor)
 			 vwf_path = Application.dataPath + @"\Plugins\VIOSO\vioso.vwf"; 
@@ -43,6 +45,7 @@ public class UIManager : MonoBehaviour
 		Debug.Log("VWF loaded: "+ FileBrowser.Result[0]);
 		UIButtoApply.GetComponent<Button>().interactable = true;
 		UITextPath.text = Path.GetFileName(FileBrowser.Result[0]);
+		PlayerPrefs.SetString("PathVwf",UITextPath.text);
 	}
 
     //Called by Apply Button 
@@ -51,13 +54,28 @@ public class UIManager : MonoBehaviour
 		StartCoroutine(ApplyVWF());
     }
 
-	// Coroutine to make sure loading screen starts before operations
+	//Called by Reset Button 
+	public void ButtonReset()
+	{
+		PlayerPrefs.SetString("EventLog", "\n Scene Reloaded");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+	}
+
+	// Coroutine to make sure loading screen (UI) starts before operations
 	IEnumerator ApplyVWF()
     {
 		UIPanelLoading.SetActive(true);
 		yield return new WaitForSeconds(0.5f);
 		//Copy vwf to plugin path
 		File.Copy(FileBrowser.Result[0], vwf_path, true);
+		PlayerPrefs.SetString("EventLog", "Successfully Loaded: " + FileBrowser.Result[0]);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+
+	//Application Exit event: cleanup
+    private void OnApplicationQuit()
+    {
+		PlayerPrefs.DeleteAll();
 	}
 }
