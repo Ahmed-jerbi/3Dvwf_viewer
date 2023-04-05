@@ -11,8 +11,10 @@ using UnityEngine.UI;
 
 public class VIOSOCamera : MonoBehaviour
 {
-    private bool bPrinted = false;
-    public Text DataLog;
+    private int iPrinted,iPrinted2 = 0;
+    public Text logProperties;
+    public Text logType;
+    public Text logIndex;
 
     public enum ERROR
     {
@@ -34,7 +36,7 @@ public class VIOSOCamera : MonoBehaviour
     [DllImport("VIOSO_Plugin64")]
     private static extern IntPtr GetRenderEventFunc();
     [DllImport("VIOSO_Plugin64")]
-    private static extern ERROR Init(ref int id, string name );
+    private static extern ERROR Init(ref int id, string name, string pathToIni = "");
     [DllImport("VIOSO_Plugin64")]
     private static extern ERROR UpdateTex(int id, IntPtr texHandleSrc, IntPtr texHandleDest );
     [DllImport("VIOSO_Plugin64")]
@@ -47,9 +49,13 @@ public class VIOSOCamera : MonoBehaviour
     private static extern ERROR GetViewClip(int id, ref Vector3 pos, ref Vector3 rot, ref Matrix4x4 view, ref FrustumPlanes clip);
     [DllImport("VIOSO_Plugin64")]
     private static extern void SetTimeFromUnity(float t);
+    [DllImport("VIOSO_Plugin64")]
+    private static extern ERROR Is3D(int id, ref int b3D);
 
     private Camera cam;
+    private ERROR err=ERROR.FALSE;
     private int viosoID = -1;
+    private int b3D = 1;
     private Quaternion orig_rot = Quaternion.identity;
     private Vector3 orig_pos = Vector3.zero;
     private Dictionary<RenderTexture, IntPtr> texMap = new Dictionary<RenderTexture, IntPtr>();
@@ -59,13 +65,15 @@ public class VIOSOCamera : MonoBehaviour
     {
 
         //init UI
-        DataLog.text= "";
+        logProperties.text= "";
+        logIndex.text= "";
+        logType.text= "";
         cam = GetComponent<Camera>();
 
         orig_rot = cam.transform.localRotation;
         orig_pos = cam.transform.localPosition;
 
-        ERROR err = ERROR.FALSE;
+        err = ERROR.FALSE;
         err = Init(ref viosoID, cam.name );
         if (ERROR.NONE == err)
         {
@@ -100,35 +108,58 @@ public class VIOSOCamera : MonoBehaviour
 
     private void OnPreCull()
     {
-        if (-1 != viosoID)
+        if (-1 != viosoID && ERROR.NONE == err)
         {
-            Vector3 pos = new Vector3(0, 0, 0);
-            Vector3 rot = new Vector3(0, 0, 0);
-            Matrix4x4 mV = Matrix4x4.identity;
-
-            Matrix4x4 mP = new Matrix4x4();
-            FrustumPlanes pl = new FrustumPlanes();
-            if (ERROR.NONE == GetViewClip(viosoID, ref pos, ref rot, ref mV, ref pl))
+            ERROR err3D = Is3D(viosoID, ref b3D);
+            //overwrite the views only when 3D data is detected
+            if (1 == b3D && ERROR.NONE == err3D)
             {
-                mV = mV.transpose;
-                Quaternion q = mV.rotation;
-                Vector3 p = mV.GetColumn(3);
-                cam.transform.localRotation = orig_rot * q;
-                cam.transform.localPosition = orig_pos + p;
 
-                mP = Matrix4x4.Frustum(pl);
-                cam.projectionMatrix = mP;
-               //UI
-                if (!bPrinted)
+                Vector3 pos = new Vector3(0, 0, 0);
+                Vector3 rot = new Vector3(0, 0, 0);
+                Matrix4x4 mV = Matrix4x4.identity;
+
+                Matrix4x4 mP = new Matrix4x4();
+                FrustumPlanes pl = new FrustumPlanes();
+                if (ERROR.NONE == GetViewClip(viosoID, ref pos, ref rot, ref mV, ref pl))
                 {
-                    DataLog.text += ("\n [" + cam.name + "]: Pos: " + cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView + "°");
-                    Debug.Log("\n"+cam.name + " Pos: " +  cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView);
-                    bPrinted = true;
-                } 
+                    mV = mV.transpose;
+                    Quaternion q = mV.rotation;
+                    Vector3 p = mV.GetColumn(3);
+                    cam.transform.localRotation = orig_rot * q;
+                    cam.transform.localPosition = orig_pos + p;
 
+                    mP = Matrix4x4.Frustum(pl);
+                    cam.projectionMatrix = mP;
+                    //UI: write the log after skipping 3 frames to get the final dir,fov
+                    iPrinted++;
+                    if (iPrinted < 4 && iPrinted > 2)
+                    {
+                        logIndex.text += (cam.name[cam.name.Length-1] +"\n" );
+                        logType.text += ("3D \n");
+                        logProperties.text += ("Dir (x,y,z)° = " + cam.transform.localRotation.eulerAngles+"\n" );
+                        //Debug.Log("\n"+cam.name + " Pos: " +  cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView);
+
+                    }
+
+                }
             }
-        }
+
+            if (0 == b3D && ERROR.NONE == err3D && iPrinted2<4)
+            {
+                iPrinted2++;
+                //UI: write the log after skipping 3 frames to get the final b3D
+                if (iPrinted2 < 4 && iPrinted2 > 2) 
+                {
+                    logIndex.text += (cam.name[cam.name.Length - 1] + "\n");
+                    logType.text += ("2D \n");
+                    logProperties.text = ("Single perspective in wallpaper mode\n");
+                } 
+            }
+        }  
+        
     }
+
 
     private void OnRenderImage( RenderTexture source, RenderTexture destination )
     {
