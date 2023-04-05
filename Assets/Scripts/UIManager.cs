@@ -9,7 +9,6 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-	public GameObject UIButtoApply;
 	public GameObject UIPanelLoading;
 	public Text UITextPath;
 	public Text UIEventLog;
@@ -43,16 +42,13 @@ public class UIManager : MonoBehaviour
     void SelectVwf(string[] path)
     {
 		Debug.Log("VWF loaded: "+ FileBrowser.Result[0]);
-		UIButtoApply.GetComponent<Button>().interactable = true;
 		UITextPath.text = Path.GetFileName(FileBrowser.Result[0]);
 		PlayerPrefs.SetString("PathVwf",UITextPath.text);
-	}
 
-    //Called by Apply Button 
-    public void ButtonApply()
-    {
-		StartCoroutine(ApplyVWF());
+		//Load the VWF selected 
+        StartCoroutine(ApplyVWF());
     }
+
 
 	//Called by Reset Button 
 	public void ButtonReset()
