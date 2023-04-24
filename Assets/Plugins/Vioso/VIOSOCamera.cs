@@ -8,6 +8,8 @@ using UnityEngine.Rendering;
 using UnityEngine.EventSystems;
 using System.Runtime.InteropServices;
 using UnityEngine.UI;
+using Unity.VisualScripting;
+using System.Security.Cryptography;
 
 public class VIOSOCamera : MonoBehaviour
 {
@@ -15,6 +17,11 @@ public class VIOSOCamera : MonoBehaviour
     public Text logProperties;
     public Text logType;
     public Text logIndex;
+    public Material FOVmat;
+    bool bDrawnFrustum=false;
+    bool bActiveCamera=false;
+    int frustumID=0;
+
 
     public enum ERROR
     {
@@ -61,7 +68,7 @@ public class VIOSOCamera : MonoBehaviour
     private Dictionary<RenderTexture, IntPtr> texMap = new Dictionary<RenderTexture, IntPtr>();
 
 
-    private void Start()
+    void Start()
     {
 
         //init UI
@@ -114,7 +121,7 @@ public class VIOSOCamera : MonoBehaviour
             //overwrite the views only when 3D data is detected
             if (1 == b3D && ERROR.NONE == err3D)
             {
-
+                bActiveCamera = true;
                 Vector3 pos = new Vector3(0, 0, 0);
                 Vector3 rot = new Vector3(0, 0, 0);
                 Matrix4x4 mV = Matrix4x4.identity;
@@ -137,9 +144,11 @@ public class VIOSOCamera : MonoBehaviour
                     {
                         logIndex.text += (cam.name[cam.name.Length-1] +"\n" );
                         logType.text += ("3D \n");
-                        logProperties.text += ("Dir (x,y,z)° = " + cam.transform.localRotation.eulerAngles+"\n" );
+                        float vfov = Mathf.Atan(1f / cam.projectionMatrix[1, 1]) * 2 * Mathf.Rad2Deg;
+                        logProperties.text += ("Dir (x,y,z)° = " + cam.transform.localRotation.eulerAngles+" - VFOV="+vfov+"°"+"\n" );
+                        
                         //Debug.Log("\n"+cam.name + " Pos: " +  cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView);
-
+                        
                     }
 
                 }
@@ -178,4 +187,56 @@ public class VIOSOCamera : MonoBehaviour
         }
     }
 
- }
+    /// <summary>
+    /// called by checkbox: drawfrustums
+    /// </summary>
+    public void DrawFrustum()
+    {
+        if (!bDrawnFrustum && bActiveCamera)
+        {
+            bDrawnFrustum = true;
+            GameObject g = GameObject.CreatePrimitive(PrimitiveType.Cube); //makes a cube
+            frustumID = g.GetInstanceID();//get object ID to destroy it later
+            Destroy(g.GetComponent<BoxCollider>()); //destroy the box collider on the cube because it's not needed
+            MeshFilter meshFilter = g.GetComponent<MeshFilter>(); //get the meshfilter on cube
+            g.GetComponent<Renderer>().material = FOVmat;
+            Mesh mesh = new Mesh();
+            Vector3[] points = new Vector3[5];
+            points[0] = cam.transform.position;
+            points[1] = cam.ViewportToWorldPoint(new Vector3(0, 0, 2));
+            points[2] = cam.ViewportToWorldPoint(new Vector3(0, 1, 2));
+            points[3] = cam.ViewportToWorldPoint(new Vector3(1, 0, 2));
+            points[4] = cam.ViewportToWorldPoint(new Vector3(1, 1, 2));
+            mesh.vertices = new Vector3[] {
+             points[0], points[1], points[2],
+             points[0], points[3], points[1],
+             points[0], points[4], points[2],
+             points[0], points[3], points[4],
+             points[1], points[2], points[4],
+             points[1], points[4], points[3] };
+
+            mesh.triangles = new int[] {
+                0, 1, 2,
+                3, 4, 5,
+                8, 7, 6,
+                11, 10, 9,
+                14, 13, 12,
+                17, 16, 15};
+
+            mesh.RecalculateNormals();
+            mesh.RecalculateBounds();
+            mesh.MarkDynamic();
+            //set the new mesh to cube's mesh
+            meshFilter.mesh = mesh;
+            //set the camera as the cube's parent
+            g.transform.SetParent(cam.transform);
+        }
+        else if (bActiveCamera)
+        {  
+            GameObject.Destroy(transform.GetChild(0).gameObject);
+            bDrawnFrustum = false;
+        }
+    }
+    
+
+}
