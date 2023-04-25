@@ -146,7 +146,6 @@ public class VIOSOCamera : MonoBehaviour
                         logType.text += ("3D \n");
                         float vfov = Mathf.Atan(1f / cam.projectionMatrix[1, 1]) * 2 * Mathf.Rad2Deg;
                         logProperties.text += ("Dir (x,y,z)° = " + cam.transform.localRotation.eulerAngles+" - VFOV="+vfov+"°"+"\n" );
-                        
                         //Debug.Log("\n"+cam.name + " Pos: " +  cam.transform.localPosition + " Dir: " + cam.transform.localRotation.eulerAngles + " FOV: V" + cam.fieldOfView);
                         
                     }

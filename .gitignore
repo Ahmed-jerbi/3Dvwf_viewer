@@ -48,3 +48,5 @@ sysinfo.txt
 crashlytics-build.properties
 Assets/Plugins/Vioso/vioso.vwf
 Assets/Plugins/Vioso/vioso.vwf.meta
+*.log
+Assets/Plugins/Vioso/VIOSO_Plugin64.log
